@@ -211,7 +211,7 @@
   <!-- Link 225mmtop -->
   <link name="225mmtop">
     <inertial>
-      <origin xyz="-1.95274e-17 -0.103396 -0.008" rpy="0 0 0"/>
+      <origin xyz="-1.95163e-17 -0.103396 -0.008" rpy="0 0 0"/>
       <mass value="0.0562684"/>
       <inertia ixx="0.000237245" ixy="-1.02886e-20" ixz="1.764e-36" iyy="2.00635e-06" iyz="1.05704e-36" izz="0.000237309"/>
     </inertial>
@@ -335,7 +335,7 @@
   <!-- Link 225mmbottom -->
   <link name="225mmbottom">
     <inertial>
-      <origin xyz="1.71851e-17 -0.1035 -0.008" rpy="0 0 0"/>
+      <origin xyz="1.71759e-17 -0.1035 -0.008" rpy="0 0 0"/>
       <mass value="0.0563618"/>
       <inertia ixx="0.000237565" ixy="1.38349e-20" ixz="9.50294e-35" iyy="1.94076e-06" iyz="3.4912e-37" izz="0.000237608"/>
     </inertial>

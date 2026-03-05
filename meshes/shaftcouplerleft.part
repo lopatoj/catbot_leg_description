@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "7dc8f9a2d1daf85c04007f1a",
+    "documentMicroversion": "5605cf73d53d3caa115e49f1",
+    "documentVersion": "092295dcd027678e655ed747",
+    "elementId": "652ae16f5772b07907e02770",
+    "fullConfiguration": "default",
+    "id": "MB9SuKyApnjwbt2ws",
+    "isStandardContent": false,
+    "name": "ShaftCouplerLeft <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

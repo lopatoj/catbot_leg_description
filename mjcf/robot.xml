@@ -66,7 +66,7 @@
         <body name="225mmtop" pos="-2.08167e-17 -6.93889e-18 0.029" quat="1.96324e-17 0.824864 -0.565331 -4.7213e-17">
           <!-- Joint from shaftcouplerright to 225mmtop -->
           <joint axis="0 0 1" name="BR_leg1_1 (1) (1)" type="hinge"/>
-          <inertial pos="-1.95274e-17 -0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 -1.02886e-20 1.764e-36 1.05704e-36"/>
+          <inertial pos="-1.95163e-17 -0.103396 -0.008" mass="0.0562684" fullinertia="0.000237245 2.00635e-06 0.000237309 -1.02886e-20 1.764e-36 1.05704e-36"/>
           <!-- Part 225mmtop -->
           <geom type="mesh" class="visual" pos="-2.08167e-17 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
           <geom type="mesh" class="collision" pos="-2.08167e-17 -0.1035 -0.008" quat="0.5 0.5 0.5 -0.5" mesh="225mmtop" material="225mmtop_material"/>
@@ -92,7 +92,7 @@
         <body name="225mmbottom" pos="0.0292942 0.0403199 0.029" quat="8.06637e-17 0.82527 -0.564738 -6.57508e-16">
           <!-- Joint from shaftcouplerright to 225mmbottom -->
           <joint axis="0 0 1" name="BR_leg2_1 (1) (1)" type="hinge"/>
-          <inertial pos="1.71851e-17 -0.1035 -0.008" mass="0.0563618" fullinertia="0.000237565 1.94076e-06 0.000237608 1.38349e-20 9.50294e-35 3.4912e-37"/>
+          <inertial pos="1.71759e-17 -0.1035 -0.008" mass="0.0563618" fullinertia="0.000237565 1.94076e-06 0.000237608 1.38349e-20 9.50294e-35 3.4912e-37"/>
           <!-- Part 225mmbottom -->
           <geom type="mesh" class="visual" pos="1.38778e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
           <geom type="mesh" class="collision" pos="1.38778e-17 -0.1035 -0.008" quat="0.5 -0.5 -0.5 -0.5" mesh="225mmbottom" material="225mmbottom_material"/>
@@ -114,17 +114,17 @@
     </body>
   </worldbody>
   <asset>
-    <mesh file="part_1__2.stl"/>
+    <mesh file="105mm.stl"/>
+    <mesh file="shaftcouplerright.stl"/>
     <mesh file="225mmtop.stl"/>
     <mesh file="68mm.stl"/>
-    <mesh file="225mmbottom.stl"/>
-    <mesh file="80mm.stl"/>
     <mesh file="shaftcouplerleft.stl"/>
-    <mesh file="shaftcouplerright.stl"/>
-    <mesh file="105mm.stl"/>
+    <mesh file="225mmbottom.stl"/>
     <mesh file="motor_holder.stl"/>
-    <mesh file="part_1.stl"/>
     <mesh file="160mm.stl"/>
+    <mesh file="80mm.stl"/>
+    <mesh file="part_1__2.stl"/>
+    <mesh file="part_1.stl"/>
     <material name="motor_holder_material" rgba="0.917647 0.917647 0.917647 1"/>
     <material name="part_1_material" rgba="0.498039 0.498039 0.498039 1"/>
     <material name="part_1__2_material" rgba="0.647059 0.647059 0.647059 1"/>
