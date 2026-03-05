@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.8)
-project(onshape_description_template) # TODO: replace with package name
+project(catbot_leg_description) # TODO: replace with package name
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 ament_python_install_package(${PROJECT_NAME})
 
-install(DIRECTORY meshes urdf rviz launch DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY meshes urdf mjcf rviz launch DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
