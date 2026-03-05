@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(catbot_leg_description) # TODO: replace with package name
+project(catbot_leg_description)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
