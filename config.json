@@ -7,5 +7,6 @@
   "document_id": "9c20b098af12cbd02fc50d1f",
   "workspace_id": "91f9e8051518d9fb326b8e23",
   "element_id": "33be5ddb55830327e8815f14",
-  "assembly_name": "SingleLeg"
+  "assembly_name": "SingleLeg",
+  "use_fixed_links": ["base_link", "imu_link"]
 }
