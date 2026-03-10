@@ -44,6 +44,10 @@ jobs:
           mv -f robot.xml mjcf/robot.xml
           mv -f robot.urdf urdf/robot.urdf
           mv -f scene.xml mjcf/scene.xml
+      - name: fix meshes dir
+        uses: Mudlet/xmlstarlet-action@master
+        with:
+          args: ed --inplace -u "/mujoco/compiler/@meshdir"  -v "../meshes" "mjcf/robot.xml"
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
